@@ -27,7 +27,7 @@
 ::before,::after{box-sizing: border-box}
 body,h1,h2,h3,p{margin: 0;}
 
-html,body{
+html,body,.split,section{
     scroll-behavior: smooth; 
 }
 
@@ -171,13 +171,14 @@ header{
 
 .nav-toggle-label{
     position: absolute;
-    top: 0;
+    top: 17px;
     left: 0;
     margin-left: 10px;
     height: 128px;
     display: flex;
     align-items: center;
 }
+
 
 .nav-toggle-label span,
 .nav-toggle-label span::before,
@@ -683,4 +684,5 @@ a{text-decoration: none;}
 .max-width{
     max-width: 1200px;
 }
+
 
